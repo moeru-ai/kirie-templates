@@ -9,11 +9,14 @@ interface WebMessage {
   };
 }
 
-const logNode = document.querySelector<HTMLPreElement>("#log");
-const sendButton = document.querySelector<HTMLButtonElement>("#sendButton");
-if (!logNode || !sendButton) {
+const logNodeElement = document.querySelector<HTMLPreElement>("#log");
+const sendButtonElement = document.querySelector<HTMLButtonElement>("#sendButton");
+if (!logNodeElement || !sendButtonElement) {
   throw new Error("Missing Kirie basic UI.");
 }
+
+const logNode = logNodeElement;
+const sendButton = sendButtonElement;
 
 function appendLog(line: string): void {
   logNode.textContent = `${logNode.textContent}\n${line}`;
