@@ -1,0 +1,21 @@
+{
+  "name": "kirie-basic",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.18.0",
+  "scripts": {
+    "build": "kirie build",
+    "dev": "kirie dev",
+    "typecheck": "tsc -p src-web/tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@gd-kirie/ipc": "0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "kirie": "0.1.1",
+    "typescript": "6.0.3",
+    "vite": "8.0.16"
+  }
+}

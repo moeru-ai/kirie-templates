@@ -1,0 +1,35 @@
+:root {
+  color: #202124;
+  background: #f7f7f8;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+button {
+  padding: 0.65rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  color: white;
+  background: #5b4bdb;
+  cursor: pointer;
+}
+
+pre {
+  min-height: 8rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  overflow: auto;
+  border-radius: 0.75rem;
+  background: #e9e8f8;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

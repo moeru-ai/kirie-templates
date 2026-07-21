@@ -1,0 +1,14 @@
+.DS_Store
+.godot/
+.import/
+.mono/
+node_modules/
+src-web/dist/
+dist/
+build/
+bin/
+obj/
+*.apk
+*.aab
+*.aar
+*.xcframework
