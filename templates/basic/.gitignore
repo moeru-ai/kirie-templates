@@ -3,6 +3,7 @@
 .import/
 .mono/
 node_modules/
+addons/godot_cef/
 src-web/dist/
 dist/
 build/
