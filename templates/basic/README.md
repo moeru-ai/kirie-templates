@@ -11,6 +11,12 @@ pnpm install
 pnpm kirie doctor
 ```
 
+For desktop development, install the pinned Godot CEF backend:
+
+```sh
+pnpm kirie doctor --fix godot-cef
+```
+
 Start a development session:
 
 ```sh
@@ -23,6 +29,6 @@ Build the web application into `src-web/dist`:
 pnpm build
 ```
 
-This template does not include C#, export presets, Godot CEF, or another
+This template does not commit C#, export presets, Godot CEF, or another
 optional desktop WebView backend. Add platform export presets and optional
 backends only when the project needs them.
