@@ -10,11 +10,11 @@
     "typecheck": "tsc -p src-web/tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@gd-kirie/ipc": "0.6.1"
+    "@gd-kirie/ipc": "0.6.2"
   },
   "devDependencies": {
     "@types/node": "25.6.0",
-    "kirie": "0.6.1",
+    "kirie": "0.6.2",
     "typescript": "6.0.3",
     "vite": "8.0.16"
   }
