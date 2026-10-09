@@ -8,14 +8,11 @@ Install JavaScript dependencies and check the local Godot environment:
 
 ```sh
 pnpm install
-pnpm kirie doctor
+pnpm kirie doctor --fix plugin:core
 ```
 
-For desktop development, install the pinned Godot CEF backend:
-
-```sh
-pnpm kirie doctor --fix godot-cef
-```
+The configured core plugin installs the Kirie addon and the pinned Godot CEF
+backend.
 
 Start a development session:
 

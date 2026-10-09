@@ -1,3 +1,6 @@
 import { defineKirieConfig } from "kirie";
+import core from "kirie/plugin/core";
 
-export default defineKirieConfig({});
+export default defineKirieConfig({
+  plugins: [core],
+});
